@@ -1,0 +1,95 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: oil_postgres
+    environment:
+      POSTGRES_DB: oil_db
+      POSTGRES_USER: analyst
+      POSTGRES_PASSWORD: secret
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U analyst -d oil_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - oil_network
+
+  minio:
+    image: minio/minio
+    container_name: oil_minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+    restart: unless-stopped
+    networks:
+      - oil_network
+
+  jupyter:
+    image: jupyter/pyspark-notebook
+    container_name: oil_jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./data:/home/jovyan/data
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+    command: >
+      sh -c "
+      pip install --no-cache-dir psycopg2-binary boto3 &&
+      start.sh jupyter lab --LabApp.token=''
+      "
+    restart: unless-stopped
+    networks:
+      - oil_network
+
+  superset:
+    image: apache/superset:latest-dev
+    container_name: oil_superset
+    environment:
+      SUPERSET_SECRET_KEY: 'oil-analytics-secret-key'
+      # Этот параметр принудительно ставит драйвер во внутреннее окружение при старте контейнера:
+      ADDITIONAL_REQUIREMENTS: 'psycopg2-binary'
+    ports:
+      - "8089:8088"
+    volumes:
+      - superset_data:/app/superset_home
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: >
+      sh -c "
+      pip install psycopg2-binary &&
+      superset db upgrade &&
+      superset fab create-admin --username admin --firstname Admin --lastname User --email admin@example.com --password admin || true &&
+      superset init &&
+      superset run -h 0.0.0.0 -p 8088 --with-threads --reload --debugger
+      "
+    restart: unless-stopped
+    networks:
+      - oil_network
+
+
+
+volumes:
+  postgres_data:
+  minio_data:
+  superset_data:
+
+networks:
+  oil_network:
+    driver: bridge

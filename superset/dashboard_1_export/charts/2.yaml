@@ -1,0 +1,183 @@
+slice_name: "\u0421\u0440\u0435\u0434\u043D\u044F\u044F \u0434\u043E\u0431\u044B\u0447\
+  \u0430 \u043F\u043E \u0441\u043A\u0432\u0430\u0436\u0438\u043D\u0430\u043C"
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 2__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 2
+  matrixify_enable: false
+  matrixify_mode_columns: disabled
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_all_sort_by_columns: a_to_z
+  matrixify_topn_order_columns: true
+  matrixify_show_column_headers: true
+  matrixify_fit_columns_dynamically: true
+  matrixify_mode_rows: disabled
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_all_sort_by_rows: a_to_z
+  matrixify_topn_order_rows: true
+  matrixify_show_row_labels: true
+  matrixify_row_height: 300
+  matrixify_charts_per_row: 4
+  matrixify_cell_title_template: ''
+  x_axis: well_name
+  xAxisForceCategorical: false
+  x_axis_sort: AVG(oil_ton_mean)
+  x_axis_sort_asc: true
+  metrics:
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: oil_ton_mean
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 32
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: column
+      type_generic: 0
+      uuid: 6f7ba570-7c5f-4320-be32-029804957c0e
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: AVG(oil_ton_mean)
+    optionName: metric_7uxjg5iolvu_2wqgnb2q8qd
+    sqlExpression: null
+  groupby: []
+  adhoc_filters: []
+  group_others_when_limit_reached: false
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastEnabled: false
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  x_axis_title: "\u0414\u0430\u0442\u0430"
+  x_axis_title_margin: 30
+  y_axis_title: "\u041D\u0435\u0444\u0442\u044C, \u0442\u043E\u043D\u043D"
+  y_axis_title_margin: 30
+  y_axis_title_position: Top
+  sort_series_type: sum
+  sort_series_ascending: false
+  color_scheme: supersetColors
+  time_shift_color: true
+  show_value: false
+  only_total: true
+  percentage_threshold: 0
+  color_by_primary_axis: false
+  minorTicks: false
+  zoomable: false
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  x_axis_number_format: ~g
+  xAxisLabelRotation: 0
+  xAxisLabelInterval: auto
+  y_axis_format: SMART_NUMBER
+  logAxis: false
+  minorSplitLine: false
+  truncateYAxis: false
+  y_axis_bounds:
+  - null
+  - null
+  truncateXAxis: true
+  force_max_interval: false
+  rich_tooltip: true
+  showTooltipTotal: true
+  showTooltipPercentage: false
+  tooltipSortByMetric: false
+  tooltipTimeFormat: smart_date
+  echart_options: '{}'
+  extra_form_data: {}
+  dashboards:
+  - 1
+query_context: "{\"datasource\":{\"id\":2,\"type\":\"table\"},\"force\":false,\"queries\"\
+  :[{\"filters\":[],\"extras\":{\"having\":\"\",\"where\":\"\"},\"applied_time_extras\"\
+  :{},\"columns\":[{\"columnType\":\"BASE_AXIS\",\"sqlExpression\":\"well_name\",\"\
+  label\":\"well_name\",\"expressionType\":\"SQL\",\"isColumnReference\":true}],\"\
+  metrics\":[{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\":null,\"certification_details\"\
+  :null,\"certified_by\":null,\"column_name\":\"oil_ton_mean\",\"description\":null,\"\
+  expression\":null,\"filterable\":true,\"groupby\":true,\"id\":32,\"is_certified\"\
+  :false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"column\",\"type_generic\"\
+  :0,\"uuid\":\"6f7ba570-7c5f-4320-be32-029804957c0e\",\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :false,\"label\":\"AVG(oil_ton_mean)\",\"optionName\":\"metric_7uxjg5iolvu_2wqgnb2q8qd\"\
+  ,\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\"\
+  :null,\"certification_details\":null,\"certified_by\":null,\"column_name\":\"oil_ton_mean\"\
+  ,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"\
+  id\":32,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"\
+  type\":\"column\",\"type_generic\":0,\"uuid\":\"6f7ba570-7c5f-4320-be32-029804957c0e\"\
+  ,\"verbose_name\":null,\"warning_markdown\":null},\"datasourceWarning\":false,\"\
+  expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"label\":\"AVG(oil_ton_mean)\"\
+  ,\"optionName\":\"metric_7uxjg5iolvu_2wqgnb2q8qd\",\"sqlExpression\":null},false]],\"\
+  annotation_layers\":[],\"row_limit\":10000,\"series_columns\":[],\"series_limit\"\
+  :0,\"group_others_when_limit_reached\":false,\"order_desc\":true,\"url_params\"\
+  :{},\"custom_params\":{},\"custom_form_data\":{},\"time_offsets\":[],\"post_processing\"\
+  :[{\"operation\":\"pivot\",\"options\":{\"index\":[\"well_name\"],\"columns\":[],\"\
+  aggregates\":{\"AVG(oil_ton_mean)\":{\"operator\":\"mean\"}},\"drop_missing_columns\"\
+  :false}},{\"operation\":\"sort\",\"options\":{\"by\":\"AVG(oil_ton_mean)\",\"ascending\"\
+  :true}},{\"operation\":\"flatten\"}]}],\"form_data\":{\"datasource\":\"2__table\"\
+  ,\"viz_type\":\"echarts_timeseries_bar\",\"slice_id\":2,\"matrixify_enable\":false,\"\
+  matrixify_mode_columns\":\"disabled\",\"matrixify_dimension_selection_mode_columns\"\
+  :\"members\",\"matrixify_dimension_columns\":{\"dimension\":\"\",\"values\":[]},\"\
+  matrixify_topn_value_columns\":10,\"matrixify_all_sort_by_columns\":\"a_to_z\",\"\
+  matrixify_topn_order_columns\":true,\"matrixify_show_column_headers\":true,\"matrixify_fit_columns_dynamically\"\
+  :true,\"matrixify_mode_rows\":\"disabled\",\"matrixify_dimension_selection_mode_rows\"\
+  :\"members\",\"matrixify_dimension_rows\":{\"dimension\":\"\",\"values\":[]},\"\
+  matrixify_topn_value_rows\":10,\"matrixify_all_sort_by_rows\":\"a_to_z\",\"matrixify_topn_order_rows\"\
+  :true,\"matrixify_show_row_labels\":true,\"matrixify_row_height\":300,\"matrixify_charts_per_row\"\
+  :4,\"matrixify_cell_title_template\":\"\",\"x_axis\":\"well_name\",\"xAxisForceCategorical\"\
+  :false,\"x_axis_sort\":\"AVG(oil_ton_mean)\",\"x_axis_sort_asc\":true,\"metrics\"\
+  :[{\"aggregate\":\"AVG\",\"column\":{\"advanced_data_type\":null,\"certification_details\"\
+  :null,\"certified_by\":null,\"column_name\":\"oil_ton_mean\",\"description\":null,\"\
+  expression\":null,\"filterable\":true,\"groupby\":true,\"id\":32,\"is_certified\"\
+  :false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"column\",\"type_generic\"\
+  :0,\"uuid\":\"6f7ba570-7c5f-4320-be32-029804957c0e\",\"verbose_name\":null,\"warning_markdown\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :false,\"label\":\"AVG(oil_ton_mean)\",\"optionName\":\"metric_7uxjg5iolvu_2wqgnb2q8qd\"\
+  ,\"sqlExpression\":null}],\"groupby\":[],\"adhoc_filters\":[],\"group_others_when_limit_reached\"\
+  :false,\"order_desc\":true,\"row_limit\":10000,\"truncate_metric\":true,\"show_empty_columns\"\
+  :true,\"comparison_type\":\"values\",\"annotation_layers\":[],\"forecastEnabled\"\
+  :false,\"forecastPeriods\":10,\"forecastInterval\":0.8,\"orientation\":\"vertical\"\
+  ,\"x_axis_title\":\"\u0414\u0430\u0442\u0430\",\"x_axis_title_margin\":30,\"y_axis_title\"\
+  :\"\u041D\u0435\u0444\u0442\u044C, \u0442\u043E\u043D\u043D\",\"y_axis_title_margin\"\
+  :30,\"y_axis_title_position\":\"Top\",\"sort_series_type\":\"sum\",\"sort_series_ascending\"\
+  :false,\"color_scheme\":\"supersetColors\",\"time_shift_color\":true,\"show_value\"\
+  :false,\"only_total\":true,\"percentage_threshold\":0,\"color_by_primary_axis\"\
+  :false,\"minorTicks\":false,\"zoomable\":false,\"show_legend\":true,\"legendType\"\
+  :\"scroll\",\"legendOrientation\":\"top\",\"x_axis_time_format\":\"smart_date\"\
+  ,\"x_axis_number_format\":\"~g\",\"xAxisLabelRotation\":0,\"xAxisLabelInterval\"\
+  :\"auto\",\"y_axis_format\":\"SMART_NUMBER\",\"logAxis\":false,\"minorSplitLine\"\
+  :false,\"truncateYAxis\":false,\"y_axis_bounds\":[null,null],\"truncateXAxis\":true,\"\
+  force_max_interval\":false,\"rich_tooltip\":true,\"showTooltipTotal\":true,\"showTooltipPercentage\"\
+  :false,\"tooltipSortByMetric\":false,\"tooltipTimeFormat\":\"smart_date\",\"echart_options\"\
+  :\"{}\",\"extra_form_data\":{},\"dashboards\":[1],\"force\":false,\"result_format\"\
+  :\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"\
+  full\"}"
+cache_timeout: null
+uuid: 775db4aa-156e-4832-b69b-ffd3279859f3
+version: 1.0.0
+dataset_uuid: 33b164e6-b003-40cc-bd54-16e6328013f9

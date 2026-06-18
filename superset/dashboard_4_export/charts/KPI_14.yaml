@@ -1,0 +1,192 @@
+slice_name: "KPI \u043F\u043E \u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044F\u043C\
+  ."
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 16__table
+  viz_type: table
+  matrixify_enable: false
+  matrixify_mode_columns: disabled
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_all_sort_by_columns: a_to_z
+  matrixify_topn_order_columns: true
+  matrixify_show_column_headers: true
+  matrixify_fit_columns_dynamically: true
+  matrixify_mode_rows: disabled
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_all_sort_by_rows: a_to_z
+  matrixify_topn_order_rows: true
+  matrixify_show_row_labels: true
+  matrixify_row_height: 300
+  matrixify_charts_per_row: 3
+  matrixify_cell_title_template: ''
+  query_mode: aggregate
+  groupby:
+  - name
+  temporal_columns_lookup: {}
+  metrics:
+  - expressionType: SQL
+    sqlExpression: 'AVG(avg_cost_per_km) '
+    column: null
+    aggregate: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: 'AVG(avg_cost_per_km) '
+    optionName: metric_t4d6hh7ahuq_gyfov0ph67w
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: avg_delay
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 111
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      uuid: f34ce0cf-ca60-44af-839b-2e0eeb37310c
+      verbose_name: null
+      warning_markdown: null
+    aggregate: AVG
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: AVG(avg_delay)
+    optionName: metric_6282hh7eyz5_qg9ovjxurr
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: total_deliveries
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 108
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: BIGINT
+      type_generic: 0
+      uuid: fb10c7d2-417a-444d-96b8-8983fbeddd19
+      verbose_name: null
+      warning_markdown: null
+    aggregate: AVG
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: AVG(total_deliveries)
+    optionName: metric_gm473zcjyk6_2zixbg6q9wt
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: total_distance
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 109
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      uuid: eb6dfc16-f805-48f0-a110-9c69b15859ce
+      verbose_name: null
+      warning_markdown: null
+    aggregate: AVG
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: AVG(total_distance)
+    optionName: metric_t7t81tab4vg_rh6luttm6mr
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: total_cost
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 110
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      uuid: 5f8a4a9c-7b52-492c-bf7f-b08af9883647
+      verbose_name: null
+      warning_markdown: null
+    aggregate: AVG
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: AVG(total_cost)
+    optionName: metric_ok1nn16bf3l_4djvha4jy77
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters: []
+  order_by_cols: []
+  server_pagination: false
+  row_limit: 10000
+  percent_metric_calculation: row_limit
+  show_totals: false
+  table_timestamp_format: smart_date
+  include_search: false
+  allow_rearrange_columns: false
+  allow_render_html: true
+  column_config:
+    name:
+      horizontalAlign: left
+      truncateLongCells: false
+    'AVG(avg_cost_per_km) ':
+      horizontalAlign: right
+      columnWidth: null
+      showCellBars: true
+      alignPositiveNegative: false
+      colorPositiveNegative: true
+  show_cell_bars: true
+  align_pn: false
+  color_pn: true
+  conditional_formatting: []
+  comparison_type: values
+  extra_form_data: {}
+  dashboards: []
+query_context: '{"datasource":{"id":16,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["name"],"metrics":[{"expressionType":"SQL","sqlExpression":"AVG(avg_cost_per_km)
+  ","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(avg_cost_per_km)
+  ","optionName":"metric_t4d6hh7ahuq_gyfov0ph67w"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"avg_delay","description":null,"expression":null,"filterable":true,"groupby":true,"id":111,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"f34ce0cf-ca60-44af-839b-2e0eeb37310c","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(avg_delay)","optionName":"metric_6282hh7eyz5_qg9ovjxurr"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"total_deliveries","description":null,"expression":null,"filterable":true,"groupby":true,"id":108,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"BIGINT","type_generic":0,"uuid":"fb10c7d2-417a-444d-96b8-8983fbeddd19","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(total_deliveries)","optionName":"metric_gm473zcjyk6_2zixbg6q9wt"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"total_distance","description":null,"expression":null,"filterable":true,"groupby":true,"id":109,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"eb6dfc16-f805-48f0-a110-9c69b15859ce","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(total_distance)","optionName":"metric_t7t81tab4vg_rh6luttm6mr"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"total_cost","description":null,"expression":null,"filterable":true,"groupby":true,"id":110,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"5f8a4a9c-7b52-492c-bf7f-b08af9883647","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(total_cost)","optionName":"metric_ok1nn16bf3l_4djvha4jy77"}],"orderby":[[{"expressionType":"SQL","sqlExpression":"AVG(avg_cost_per_km)
+  ","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(avg_cost_per_km)
+  ","optionName":"metric_t4d6hh7ahuq_gyfov0ph67w"},false]],"annotation_layers":[],"row_limit":10000,"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[],"time_offsets":[]}],"form_data":{"datasource":"16__table","viz_type":"table","matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":3,"matrixify_cell_title_template":"","query_mode":"aggregate","groupby":["name"],"temporal_columns_lookup":{},"metrics":[{"expressionType":"SQL","sqlExpression":"AVG(avg_cost_per_km)
+  ","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(avg_cost_per_km)
+  ","optionName":"metric_t4d6hh7ahuq_gyfov0ph67w"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"avg_delay","description":null,"expression":null,"filterable":true,"groupby":true,"id":111,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"f34ce0cf-ca60-44af-839b-2e0eeb37310c","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(avg_delay)","optionName":"metric_6282hh7eyz5_qg9ovjxurr"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"total_deliveries","description":null,"expression":null,"filterable":true,"groupby":true,"id":108,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"BIGINT","type_generic":0,"uuid":"fb10c7d2-417a-444d-96b8-8983fbeddd19","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(total_deliveries)","optionName":"metric_gm473zcjyk6_2zixbg6q9wt"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"total_distance","description":null,"expression":null,"filterable":true,"groupby":true,"id":109,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"eb6dfc16-f805-48f0-a110-9c69b15859ce","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(total_distance)","optionName":"metric_t7t81tab4vg_rh6luttm6mr"},{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"total_cost","description":null,"expression":null,"filterable":true,"groupby":true,"id":110,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"5f8a4a9c-7b52-492c-bf7f-b08af9883647","verbose_name":null,"warning_markdown":null},"aggregate":"AVG","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"AVG(total_cost)","optionName":"metric_ok1nn16bf3l_4djvha4jy77"}],"all_columns":[],"percent_metrics":[],"adhoc_filters":[],"order_by_cols":[],"server_pagination":false,"row_limit":10000,"percent_metric_calculation":"row_limit","show_totals":false,"table_timestamp_format":"smart_date","include_search":false,"allow_rearrange_columns":false,"allow_render_html":true,"column_config":{"name":{"horizontalAlign":"left","truncateLongCells":false},"AVG(avg_cost_per_km)
+  ":{"horizontalAlign":"right","columnWidth":null,"showCellBars":true,"alignPositiveNegative":false,"colorPositiveNegative":true}},"show_cell_bars":true,"align_pn":false,"color_pn":true,"conditional_formatting":[],"comparison_type":"values","extra_form_data":{},"dashboards":[],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 61ac6183-d919-4635-9d6d-1e7782511792
+version: 1.0.0
+dataset_uuid: 4dec9252-98b9-41ae-86c0-1b5284054213

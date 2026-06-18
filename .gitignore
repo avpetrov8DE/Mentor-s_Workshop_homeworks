@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.ipynb_checkpoints/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Data files (если они большие)
+*.parquet
+*.csv
+*.xlsx
+data/
+*.zip
+*.tar.gz
+
+# PostgreSQL data (локальные тома)
+postgres_data/
+minio_data/
+superset_data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache

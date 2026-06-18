@@ -1,0 +1,201 @@
+dashboard_title: "\u0417\u0430\u0434\u0430\u043D\u0438\u0435 1. \u0410\u043D\u0430\
+  \u043B\u0438\u0442\u0438\u043A\u0430 \u0434\u043E\u0431\u044B\u0447\u0438"
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: 2f59900f-71ec-4d43-98f8-dae5bdbe85e2
+position:
+  CHART-M-rDaaieP0yZ-G39ZH-z8:
+    children: []
+    id: CHART-M-rDaaieP0yZ-G39ZH-z8
+    meta:
+      chartId: 6
+      height: 50
+      sliceName: "\u041F\u0440\u043E\u0446\u0435\u043D\u0442 \u043F\u0440\u043E\u0441\
+        \u0442\u043E\u044F \u0441\u043A\u0432\u0430\u0436\u0438\u043D"
+      uuid: 844891c0-7ec7-4a96-99a5-3e0c50412b6d
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Ff7011rgCIcEYHxNaibb_
+    type: CHART
+  CHART-RWPuWnVcdyjYuLDlYfz7Q:
+    children: []
+    id: CHART-RWPuWnVcdyjYuLDlYfz7Q
+    meta:
+      chartId: 2
+      height: 50
+      sliceName: "\u0421\u0440\u0435\u0434\u043D\u044F\u044F \u0434\u043E\u0431\u044B\
+        \u0447\u0430 \u043F\u043E \u0441\u043A\u0432\u0430\u0436\u0438\u043D\u0430\
+        \u043C"
+      sliceNameOverride: "\u0422\u043E\u043F \u0441\u043A\u0432\u0430\u0436\u0438\u043D\
+        \ \u043F\u043E \u0441\u0440\u0435\u0434\u043D\u0435\u0439 \u0434\u043E\u0431\
+        \u044B\u0447\u0435 \u0432 \u0434\u0435\u043D\u044C"
+      uuid: 775db4aa-156e-4832-b69b-ffd3279859f3
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Ff7011rgCIcEYHxNaibb_
+    type: CHART
+  CHART-U3fYuMqCr7gqzc6OqX2ws:
+    children: []
+    id: CHART-U3fYuMqCr7gqzc6OqX2ws
+    meta:
+      chartId: 1
+      height: 50
+      sliceName: "\u0421\u0440\u0435\u0434\u043D\u044F\u044F \u0434\u043E\u0431\u044B\
+        \u0447\u0430 \u0432 \u0434\u0435\u043D\u044C \u043F\u043E \u0432\u0441\u0435\
+        \u043C \u0441\u043A\u0432\u0430\u0436\u0438\u043D\u0430\u043C"
+      uuid: 20611a6d-e337-41db-b481-0b98f4706aec
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-KmygQankq-ZlMFx3I1cS-
+    type: CHART
+  CHART-khP5qBxlhmWvO1WCONAEw:
+    children: []
+    id: CHART-khP5qBxlhmWvO1WCONAEw
+    meta:
+      chartId: 3
+      height: 50
+      sliceName: "Heatmap. \u0421\u0440\u0435\u0434\u043D\u0438\u0439 \u0434\u0435\
+        \u0431\u0438\u0442 \u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u043C\u043E\
+        \u0441\u0442\u0438 \u043E\u0442 \u0434\u0430\u0432\u043B\u0435\u043D\u0438\
+        \u044F (\u0441\u0442\u0440\u043E\u0433\u043E \u043F\u043E \u0437\u0430\u0434\
+        \u0430\u043D\u0438\u044E)"
+      uuid: 359b1f6b-6ba0-4178-8683-a5b3333c1a5b
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-KmygQankq-ZlMFx3I1cS-
+    type: CHART
+  CHART-z1R15_nGLbxcAagTArYR7:
+    children: []
+    id: CHART-z1R15_nGLbxcAagTArYR7
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: "HeatMap. \u0421\u0440\u0435\u0434\u043D\u044F\u044F \u0434\u043E\
+        \u0431\u044B\u0447\u0430 \u043E\u0442 \u0442\u0435\u043C\u043F\u0435\u0440\
+        \u0430\u0442\u0443\u0440\u044B \u0438 \u0434\u0430\u0432\u043B\u0435\u043D\
+        \u0438\u044F."
+      sliceNameOverride: "HeatMap. \u0412\u043B\u0438\u044F\u043D\u0438\u0435 \u0442\
+        \u0435\u043C\u043F\u0435\u0440\u0430\u0442\u0443\u0440\u044B \u0438 \u0434\
+        \u0430\u0432\u043B\u0435\u043D\u0438\u044F \u043D\u0430 \u0441\u0440\u0435\
+        \u0434\u043D\u044E\u044E \u0434\u043E\u0431\u044B\u0447\u0443 \u0432 \u0434\
+        \u0435\u043D\u044C"
+      uuid: 85ffe205-1c4a-4edf-b355-73a2ff269e16
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-KmygQankq-ZlMFx3I1cS-
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-KmygQankq-ZlMFx3I1cS-
+    - ROW-Ff7011rgCIcEYHxNaibb_
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: "\u0417\u0430\u0434\u0430\u043D\u0438\u0435 1. \u0410\u043D\u0430\u043B\
+        \u0438\u0442\u0438\u043A\u0430 \u0434\u043E\u0431\u044B\u0447\u0438"
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-Ff7011rgCIcEYHxNaibb_:
+    children:
+    - CHART-M-rDaaieP0yZ-G39ZH-z8
+    - CHART-RWPuWnVcdyjYuLDlYfz7Q
+    id: ROW-Ff7011rgCIcEYHxNaibb_
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-KmygQankq-ZlMFx3I1cS-:
+    children:
+    - CHART-khP5qBxlhmWvO1WCONAEw
+    - CHART-z1R15_nGLbxcAagTArYR7
+    - CHART-U3fYuMqCr7gqzc6OqX2ws
+    id: ROW-KmygQankq-ZlMFx3I1cS-
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  label_colors: {}
+  refresh_frequency: 0
+  show_chart_timestamps: false
+  timed_refresh_immune_slices: []
+  expanded_slices: {}
+  color_scheme: ''
+  shared_label_colors: []
+  map_label_colors:
+    AVG(oil_ton_mean): '#1FA8C9'
+    AVG(downtime_ratio): '#1FA8C9'
+    AVG(oil_ton_sum): '#1FA8C9'
+  color_scheme_domain: []
+  cross_filters_enabled: true
+  chart_configuration:
+    '1':
+      id: 1
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 5
+        - 6
+    '2':
+      id: 2
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 3
+        - 5
+        - 6
+    '6':
+      id: 6
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 6
+  native_filter_configuration: []
+  chart_customization_config: []
+  default_filters: '{}'
+theme_uuid: null
+version: 1.0.0

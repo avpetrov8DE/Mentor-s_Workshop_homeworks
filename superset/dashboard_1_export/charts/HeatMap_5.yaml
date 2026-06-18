@@ -1,0 +1,99 @@
+slice_name: "HeatMap. \u0421\u0440\u0435\u0434\u043D\u044F\u044F \u0434\u043E\u0431\
+  \u044B\u0447\u0430 \u043E\u0442 \u0442\u0435\u043C\u043F\u0435\u0440\u0430\u0442\
+  \u0443\u0440\u044B \u0438 \u0434\u0430\u0432\u043B\u0435\u043D\u0438\u044F."
+description: null
+certified_by: null
+certification_details: null
+viz_type: heatmap_v2
+params:
+  datasource: 7__table
+  viz_type: heatmap_v2
+  slice_id: 5
+  matrixify_enable: false
+  matrixify_mode_columns: disabled
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_all_sort_by_columns: a_to_z
+  matrixify_topn_order_columns: true
+  matrixify_show_column_headers: true
+  matrixify_fit_columns_dynamically: true
+  matrixify_mode_rows: disabled
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_all_sort_by_rows: a_to_z
+  matrixify_topn_order_rows: true
+  matrixify_show_row_labels: true
+  matrixify_row_height: 300
+  matrixify_charts_per_row: 4
+  matrixify_cell_title_template: ''
+  x_axis: pressure
+  groupby: temperature
+  metric:
+    aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: oil_ton
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 64
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: column
+      type_generic: 0
+      uuid: 43802819-c1e6-44a5-a90c-3fe49080045b
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: AVG(oil_ton)
+    optionName: metric_ov5p8btmf1p_4e243uimvr
+    sqlExpression: null
+  adhoc_filters: []
+  row_limit: 10000
+  sort_x_axis: alpha_asc
+  sort_y_axis: alpha_asc
+  normalize_across: heatmap
+  legend_type: continuous
+  linear_color_scheme: superset_seq_1
+  border_color:
+    a: 1
+    b: 0
+    g: 0
+    r: 0
+  border_width: 0
+  xscale_interval: -1
+  yscale_interval: -1
+  left_margin: auto
+  bottom_margin: auto
+  value_bounds:
+  - null
+  - null
+  y_axis_format: SMART_NUMBER
+  x_axis_time_format: smart_date
+  xAxisLabelRotation: 0
+  currency_format:
+    symbolPosition: suffix
+  show_legend: true
+  show_percentage: true
+  show_values: true
+  normalized: true
+  extra_form_data: {}
+  dashboards:
+  - 1
+query_context: '{"datasource":{"id":7,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"columnType":"BASE_AXIS","sqlExpression":"pressure","label":"pressure","expressionType":"SQL","isColumnReference":true},"temperature"],"metrics":[{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"oil_ton","description":null,"expression":null,"filterable":true,"groupby":true,"id":64,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"column","type_generic":0,"uuid":"43802819-c1e6-44a5-a90c-3fe49080045b","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(oil_ton)","optionName":"metric_ov5p8btmf1p_4e243uimvr","sqlExpression":null}],"orderby":[["pressure",true],["temperature",true]],"annotation_layers":[],"row_limit":10000,"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"rank","options":{"metric":"AVG(oil_ton)"}}]}],"form_data":{"datasource":"7__table","viz_type":"heatmap_v2","slice_id":5,"matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":4,"matrixify_cell_title_template":"","x_axis":"pressure","groupby":"temperature","metric":{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"oil_ton","description":null,"expression":null,"filterable":true,"groupby":true,"id":64,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"column","type_generic":0,"uuid":"43802819-c1e6-44a5-a90c-3fe49080045b","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(oil_ton)","optionName":"metric_ov5p8btmf1p_4e243uimvr","sqlExpression":null},"adhoc_filters":[],"row_limit":10000,"sort_x_axis":"alpha_asc","sort_y_axis":"alpha_asc","normalize_across":"heatmap","legend_type":"continuous","linear_color_scheme":"superset_seq_1","border_color":{"a":1,"b":0,"g":0,"r":0},"border_width":0,"xscale_interval":-1,"yscale_interval":-1,"left_margin":"auto","bottom_margin":"auto","value_bounds":[null,null],"y_axis_format":"SMART_NUMBER","x_axis_time_format":"smart_date","xAxisLabelRotation":0,"currency_format":{"symbolPosition":"suffix"},"show_legend":true,"show_percentage":true,"show_values":true,"normalized":true,"extra_form_data":{},"dashboards":[1],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 85ffe205-1c4a-4edf-b355-73a2ff269e16
+version: 1.0.0
+dataset_uuid: 94b92b06-60b3-447a-aaa8-5378afa460b5
